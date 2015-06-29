@@ -3,7 +3,7 @@ var Highcharts = require('exports?Highcharts!Highcharts/js/highstock.src');
 var React = require('react');
 var update = require('react/addons').addons.update;
 module.exports = React.createClass({
-  displayName: 'Highstock',
+  displayName: 'Highcharts',
 
   renderChart: function () {
     if (!this.props.config) {
@@ -33,4 +33,4 @@ module.exports = React.createClass({
   }
 });
 
-module.exports.Highstock = Highstock;
+module.exports.Highcharts = Highcharts;

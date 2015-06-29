@@ -693,7 +693,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	var React = __webpack_require__(4);
 	var update = __webpack_require__(5).addons.update;
 	module.exports = React.createClass({
-	  displayName: 'Highstock',
+	  displayName: 'Highcharts',
 
 	  renderChart: function () {
 	    if (!this.props.config) {
@@ -723,7 +723,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	  }
 	});
 
-	module.exports.Highstock = Highstock;
+	module.exports.Highcharts = Highcharts;
 	/* WEBPACK VAR INJECTION */}.call(exports, (function() { return this; }())))
 
 /***/ },
